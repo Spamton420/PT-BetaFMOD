@@ -93,6 +93,7 @@
 			<destination>{17f49434-621d-4685-8ac3-14b5cd88d38d}</destination>
 			<destination>{bae68a06-0495-44f4-87be-125d0eb9e28a}</destination>
 			<destination>{bbc72ff7-8de9-4432-809b-6b85112ac8b3}</destination>
+			<destination>{a880a5ba-a1b1-4b18-a88b-63c29e014c33}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e1f6ea3a-8f51-4d75-a8a4-9d76a259153b}</destination>
@@ -103,6 +104,7 @@
 			<destination>{17f49434-621d-4685-8ac3-14b5cd88d38d}</destination>
 			<destination>{bae68a06-0495-44f4-87be-125d0eb9e28a}</destination>
 			<destination>{bbc72ff7-8de9-4432-809b-6b85112ac8b3}</destination>
+			<destination>{a880a5ba-a1b1-4b18-a88b-63c29e014c33}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{df212e83-8482-48c3-bc55-2aa548f16c5e}</destination>
@@ -250,6 +252,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{17f49434-621d-4685-8ac3-14b5cd88d38d}">
+		<property name="start">
+			<value>17.833922902494329</value>
+		</property>
 		<property name="length">
 			<value>165.17834220720547</value>
 		</property>
@@ -262,7 +267,7 @@
 	</object>
 	<object class="SingleSound" id="{bae68a06-0495-44f4-87be-125d0eb9e28a}">
 		<property name="start">
-			<value>167.19300936021654</value>
+			<value>183.01226510969974</value>
 		</property>
 		<property name="length">
 			<value>80.47904166666666</value>
@@ -273,7 +278,7 @@
 	</object>
 	<object class="SingleSound" id="{bbc72ff7-8de9-4432-809b-6b85112ac8b3}">
 		<property name="start">
-			<value>253.42055427039617</value>
+			<value>263.4913067763664</value>
 		</property>
 		<property name="length">
 			<value>208.93993750000001</value>
@@ -283,6 +288,14 @@
 		</property>
 		<relationship name="audioFile">
 			<destination>{19480a5d-ee08-4d59-8174-531301dbfb6d}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{a880a5ba-a1b1-4b18-a88b-63c29e014c33}">
+		<property name="length">
+			<value>17.833922902494329</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{e835d780-9f48-4673-8c64-8aad0701bdd8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e1f6ea3a-8f51-4d75-a8a4-9d76a259153b}">
@@ -315,10 +328,10 @@
 	</object>
 	<object class="LoopRegion" id="{ec764aaa-30f6-4335-97f4-f3cca776079a}">
 		<property name="position">
-			<value>0</value>
+			<value>17.833922902494329</value>
 		</property>
 		<property name="length">
-			<value>162.73452911061077</value>
+			<value>163.16607709750568</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{5d0a2adb-a600-41af-9934-838fe40d240c}</destination>
@@ -332,7 +345,7 @@
 	</object>
 	<object class="LoopRegion" id="{3ed3c3c2-6622-4d2d-997a-5ea79098b774}">
 		<property name="position">
-			<value>167.19300936021654</value>
+			<value>183.01226510969974</value>
 		</property>
 		<property name="length">
 			<value>80.47904166666666</value>
@@ -356,7 +369,7 @@
 	</object>
 	<object class="LoopRegion" id="{5437b7b7-1a18-4907-ba41-d449dc33ed86}">
 		<property name="position">
-			<value>167.19300936021654</value>
+			<value>183.01226510969974</value>
 		</property>
 		<property name="length">
 			<value>80.479041666666689</value>
@@ -370,7 +383,7 @@
 	</object>
 	<object class="TempoMarker" id="{210bd630-24d3-409f-b0ff-e864d53b0f88}">
 		<property name="position">
-			<value>167.19300936021654</value>
+			<value>183.01226510969974</value>
 		</property>
 		<property name="tempo">
 			<value>167</value>
@@ -384,7 +397,7 @@
 	</object>
 	<object class="LoopRegion" id="{50348edc-1308-435e-976a-f08311dd5020}">
 		<property name="position">
-			<value>253.42055427039617</value>
+			<value>263.4913067763664</value>
 		</property>
 		<property name="length">
 			<value>208.93993750000004</value>
@@ -407,7 +420,7 @@
 	</object>
 	<object class="TempoMarker" id="{98be03f0-f16e-431e-9116-7c4bab4a2e23}">
 		<property name="position">
-			<value>253.42055427039617</value>
+			<value>263.4913067763664</value>
 		</property>
 		<property name="tempo">
 			<value>170</value>
@@ -421,7 +434,7 @@
 	</object>
 	<object class="LoopRegion" id="{0d1defa6-6cb3-4287-9a37-0f1acc6a4610}">
 		<property name="position">
-			<value>253.42055427039617</value>
+			<value>263.4913067763664</value>
 		</property>
 		<property name="length">
 			<value>208.93993750000007</value>
@@ -438,7 +451,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>162.73452911061077</value>
+			<value>183.01226510969974</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>

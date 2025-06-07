@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{36f8dad7-1e56-4eae-9f4d-ee50f3ba8103}">
+	<object class="AudioFile" id="{383b63dc-394f-4043-bdc8-98e610bfab65}">
 		<property name="assetPath">
-			<value>sfx/DASH1.mp3</value>
+			<value>PTB/music/Pizza_Tower_-_Delivery_for_the_City.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.4367346938775509</value>
+			<value>128.85907029478457</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{bf575252-09c1-4fff-a9f7-5be08d17b6ed}</destination>
